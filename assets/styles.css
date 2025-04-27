@@ -2,9 +2,24 @@ header {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'fontSalamanca';
+    src: url('/assets/fonts/Universitas_Studii_Salamantini.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1 {
     color: darkblue;
+    font-family: 'fontSalamanca';
+}
+
+#navegacion {
+    background-color: ghostwhite;
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-radius: 5px;
 }
 
 
