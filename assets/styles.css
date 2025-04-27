@@ -1,0 +1,67 @@
+header { 
+    text-align: center;
+}
+
+
+h1 {
+    color: darkblue;
+}
+
+
+.datos_principales {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h2 {
+    color: cornflowerblue;
+}
+
+
+body {
+    background-color: azure;
+}
+
+
+section {
+    margin: 5%;
+}
+
+
+.habilidades {
+    display: flex;
+}
+
+
+.cursos_complementarios{
+    margin: 2%;
+}
+
+
+article {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.experiencia {
+    width: 300px;
+}
+
+
+form {
+    text-align: center;
+}
+
+
+.campo {
+    margin: 1%;
+}
+
+
+footer {
+    text-align: center;
+}
+

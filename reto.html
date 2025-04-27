@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae de Diego Lizana</title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body>
@@ -16,38 +17,40 @@
                 <button><a href="#perfil-profesional">Perfil Profesional</a></button>
                 <button><a href="#formacion-academica">Formación Académica</a></button>
                 <button><a href="#formacion-complementaria">Formación Complementaria</a></button>
+            </ul>
+            <ul>
                 <button><a href="#experiencia-laboral">Experiencia Laboral</a></button>
                 <button><a href="#habilidades">Habilidades</a></button>
                 <button><a href="#contacto">Contacto</a></button>
-            
             </ul>
         </nav>
     </header>
 
     <main>
-
+        
         <section id="datos-personales">
-            <h2>Datos Personales</h2>
-            <figure>
-                <img src="/imagenes/foto.jpg" alt="Foto Diego Lizana" width="150">
-                <figcaption>Diego Lizana</figcaption>
-            </figure>
-            <address>
-                Nombre: <Strong>Diego Lizana Ciudad</Strong><br>
-                Dirección: <Strong>Salamanca, España</Strong><br>
-                Teléfono: <strong>+34 666669950</strong><br>
-                Correo Electrónico: <a href="mailto:dev@gmail.com"><strong>dev@gmail.com</strong></a><br>
-                <a href="https://github.com">GitHub</a>
-                <a href="https://www.linkedin.com">LinkedIn</a>
-                <a href="https://www.infojobs.net">InfoJobs</a>
-
-            </address>
+            <h2>Datos Personales:</h2>
+            <div class="datos_principales">
+                <figure>
+                    <img src="/imagenes/foto.jpg" alt="Foto Diego Lizana" width="150">
+                    <figcaption>Diego Lizana</figcaption>
+                </figure>
+                <address>
+                    Nombre: <Strong>Diego Lizana Ciudad</Strong><br>
+                    Dirección: <Strong>Salamanca, España</Strong><br>
+                    Teléfono: <strong>+34 666669950</strong><br>
+                    Correo Electrónico: <a href="mailto:dev@gmail.com"><strong>dev@gmail.com</strong></a><br>
+                    <a href="https://github.com">GitHub</a>
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                    <a href="https://www.infojobs.net">InfoJobs</a>
+    
+                </address>
+            </div>
 
         </section>
-        <br>
 
         <section id="perfil-profesional">
-            <h2>Perfil Profesional</h2>
+            <h2>Perfil Profesional:</h2>
             <p>
                 Estudiante de programación con una <strong>sólida base en Java, Python y SQL.</strong>
                 Demostrada experiencia para diseñar proyectos, resolver problemas complejos
@@ -60,10 +63,8 @@
                 </p>
         </section>
 
-        <br>
-
         <section id="formacion-academica">
-            <h2>Formación Académica</h2>
+            <h2>Formación Académica:</h2>
             <ol>
                 <li><Strong>Grado en Biología</Strong> - <a href="">Universidad de Salamanca</a> - 2011/2015</li>
                 <li><strong>Máster en Biología y Conservación de la Biodiversidad</strong> - <a href="usal.es" rel="noopener">Universidad de Salamanca</a> - 2015/2016</li>
@@ -71,28 +72,22 @@
             </ol>
         </section>
 
-        <br>
-
         <section id="formacion-complementaria">
-            <h2>Formación Complementaria</h2>
+            <h2>Formación Complementaria:</h2>
             <ul>
-                <li><strong>Certificado de Inglés Avanzado C1</strong> - Certificado C1 Cambridge English Level 2 Certificate in ESOL Internacional (Advanced)
+                <li class="cursos_complementarios"><strong>Certificado de Inglés Avanzado C1</strong> - Certificado C1 Cambridge English Level 2 Certificate in ESOL Internacional (Advanced)
                     <ul>
                         <li>Universidad de Cambridge (2017)</li>
                     </ul>
                 </li>
 
-                <br>
-            
-                <li><strong>Certificado en Programación con Python</strong> - Curso online CS50P Introducción a la Programación con Python
+                <li class="cursos_complementarios"><strong>Certificado en Programación con Python</strong> - Curso online CS50P Introducción a la Programación con Python
                     <ul>    
                         <li>Universidad de Harvard (2024)</li>
                     </ul>
                 </li>
 
-                <br>
-
-                <li><strong>Certificado en Preparación de Materia Oscura</strong> - Curso Online por Youtube.
+                <li class="cursos_complementarios"><strong>Certificado en Preparación de Materia Oscura</strong> - Curso Online por Youtube.
                     <ul>
                         <li>En el garaje de mi casa (2025)</li>
                     </ul>
@@ -100,67 +95,77 @@
             </ul>
         </section>
 
-        <br>
-
         <section id="experiencia-laboral">
-            <h2>Experiencia Laboral</h2>
+            <h2>Experiencia Laboral:</h2>
 
             <article>
-                <img src="/imagenes/logo-cccp.png" alt="Logo CCCP">
-                <h3>Explorador galáctico</h3>
-                <a href="cccp.ru" rel="noopener noreferrer" rel="">Unión de Repúblicas Socialistas Soviéticas</a>
-                <p>2025 / Actualidad</p>
-                <p>Explorador estelar en la galaaxia de <em>Andrómeda.</em>
-                    <ul>
-                        <li><strong>Busqueda y eliminación</strong> de competencia galáctica por recursos valiosos.</li>
-                    </ul>
-                </p>
+                <div>
+                    <img class="experiencia" src="/imagenes/logo-cccp.png" alt="Logo CCCP">
+                    <h3>Explorador galáctico</h3>
+                </div>
+                
+                <div>
+                    <a href="cccp.ru" rel="noopener noreferrer" rel="">Unión de Repúblicas Socialistas Soviéticas</a>
+                    <p>2025 / Actualidad</p>
+                    <p>Explorador estelar en la galaxia de <em>Andrómeda.</em>
+                        <ul>
+                            <li><strong>Busqueda y eliminación</strong> de competencia galáctica por recursos valiosos.</li>
+                        </ul>
+                    </p>
+                </div>
+                
             </article>
 
-            <br>
-            
             <article>
-                <img src="/imagenes/logo-usal.png" alt="Logo USAL">
-                <h3>Biólogo investigador</h3>
-                <a href="usal.es" rel="noopener noreferrer" rel="">Universidad de Salamanca</a>
-                <p>2015 / 2024</p>
-                <p>Investigador enfocado en mamíferos, anfibios y reptiles en proyectos nacionales e internacionales relacionados con la zoologia
-                     y la evaluación de impacto ambiental como <em>investigador, técnico de campo y analista de datos.</em>
-                    <ul>
-                        <li><strong>Diseño de proyectos y análisis de datos</strong>: Resultante en la <strong>primera 
-                            investigación multivariable</strong> sobre la presencia y mortalidad de murciélagos 
-                            en las turbinas de los parques eólicos de IBERDROLA.</li>
-                        <li><strong>Colaboración</strong>: Estudios de mitigación de impacto ambiental y coordinación 
-                            con grupos nacionales y administraciones, <strong>resultantes en la creación de 
-                            figuras de protección de especies amenazadas</strong> en Castilla y León.</li>
-                        <li><strong>Competencia</strong>: Actualización del estudio de la especie endémica y en peligro
-                            de extinción Iberolacerta martinezricai, <strong>aumentando el área conocida para
-                            la especie un 30%</strong>.</li>
-                        <li><strong>Comunicación eficiente</strong>: Como profesor de prácticas de zoología en la Universidad de Salamanca
-                             e impartiendo cursos sobre biodiversidad.</li>
-                    </ul>
-                </p>
+
+                <div>
+                    <img class="experiencia" src="/imagenes/logo-usal.png" alt="Logo USAL">
+                    <h3>Biólogo investigador</h3>
+                </div>
+
+                <div>
+                    <a href="usal.es" rel="noopener noreferrer" rel="">Universidad de Salamanca</a>
+                    <p>2015 / 2024</p>
+                    <p>Investigador enfocado en mamíferos, anfibios y reptiles en proyectos nacionales e internacionales relacionados con la zoologia
+                         y la evaluación de impacto ambiental como <em>investigador, técnico de campo y analista de datos.</em>
+                        <ul>
+                            <li><strong>Diseño de proyectos y análisis de datos</strong>: Resultante en la <strong>primera 
+                                investigación multivariable</strong> sobre la presencia y mortalidad de murciélagos 
+                                en las turbinas de los parques eólicos de IBERDROLA.</li>
+                            <li><strong>Colaboración</strong>: Estudios de mitigación de impacto ambiental y coordinación 
+                                con grupos nacionales y administraciones, <strong>resultantes en la creación de 
+                                figuras de protección de especies amenazadas</strong> en Castilla y León.</li>
+                            <li><strong>Competencia</strong>: Actualización del estudio de la especie endémica y en peligro
+                                de extinción Iberolacerta martinezricai, <strong>aumentando el área conocida para
+                                la especie un 30%</strong>.</li>
+                            <li><strong>Comunicación eficiente</strong>: Como profesor de prácticas de zoología en la Universidad de Salamanca
+                                 e impartiendo cursos sobre biodiversidad.</li>
+                        </ul>
+                    </p>
+                </div>
+                
             </article>
 
-            <br>
-
             <article>
-                <img src="/imagenes/logo-barymont.png" alt="Logo Grupo Bárymont">
-                <h3>Asesor financiero</h3>
-                <a href="barymont.com" rel="noopener noreferrer" rel="">Grupo Bárymont</a>
-                <p>2023 / 2024</p>
-                <p>Asesor financiero y distribuidor de seguros (Nivel 2)</p>
-                <ul>
-                    <li><strong>Análisis de datos y rosolución de problemas</strong> financieros para particulares.</li>
-                </ul>
+                <div>
+                    <img class="experiencia" src="/imagenes/logo-barymont.png" alt="Logo Grupo Bárymont">
+                    <h3>Asesor financiero</h3>
+                </div>
+                <div>
+                    <a href="barymont.com" rel="noopener noreferrer" rel="">Grupo Bárymont</a>
+                    <p>2023 / 2024</p>
+                    <p>Asesor financiero y distribuidor de seguros (Nivel 2)</p>
+                    <ul>
+                        <li><strong>Análisis de datos y rosolución de problemas</strong> financieros para particulares.</li>
+                    </ul>
+                </div>
+                
             </article>
         </section>
 
-        <br>
-
         <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
+            <h2>Habilidades:</h2>
+            <ul class="habilidades">
                 <li><strong>Habilidades Blandas</strong>
                     <ul>
                         <li>Resolución de problemas</li>
@@ -178,7 +183,7 @@
                         <li>Java <progress value="50" max="100"></progress> - Intermedio</li>
                         <li>Python <progress value="50" max="100"></progress> - Intermedio</li>
                         <li>SQL <progress value="50" max="100"></progress> - Intermedio</li>
-                        <li>Programación Orientada a Objetos <progress value="60" max="100"></progress> - Intermedio</li>
+                        <li>P.O.O <progress value="60" max="100"></progress> - Intermedio</li>
                         <li>Análisis de Datos <progress value="85" max="100"></progress> - Profesional</li>
                         <li>HTML5 <progress value="65" max="100"></progress> - Intermedio</li>
                         <li>CSS <progress value="65" max="100"></progress> - Intermedio</li>
@@ -189,46 +194,43 @@
             </ul>
         </section>
 
-        <br>
-
         <section id="contacto">
-            <h2>Formulario de Contacto</h2>
+            <h2>Formulario de Contacto:</h2>
             <form action="http://uax.tionazo.es/lms_actividades_retos/Reto_HTML_Curriculum_comprueba_formulario.php" method="POST">
 
                 <div class="campo">
                     <label for="nombre">Nombre:</label>
                     <input type="text" placeholder="Introduce aqui:" id="nombre" name="nombre" required>
-                    <br>
                 </div>
               
                 <div class="campo">
                     <label for="email">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" required>
-                    <br>
+                    
                 </div>
                 
                 <div class="campo">
                     <label for="telefono">Teléfono:</label>
                     <input type="tel" id="telefono" name="telefono">
-                    <br>
+                    
                 </div>
       
                 <div class="campo">
                     <label for="contraseña">Contraseña:</label>
                     <input type="password" id="contraseña" name="contraseña">
-                    <br>
+                    
                 </div>
 
                 <div class="campo">
                     <label for="presupuesto">Presupuesto:</label>
                     <input type="number" id="presupuesto" name="presupuesto">
-                    <br>
+                    
                 </div>
       
                 <div class="campo">
                     <label for="fecha-fin">Fecha de Fin del Proyecto:</label>
                     <input type="date" id="fecha-fin" name="fecha-fin">
-                    <br>
+                    
                 </div>
               
                 <div class="campo">
@@ -237,7 +239,7 @@
                     <label for="rapido">Rápido</label>
                     <input type="radio" id="barato" name="preferencia_proyecto" value="barato">
                     <label for="barato">Barato</label>
-                    <br>
+                    
                 </div>
             
                 <div class="campo">
@@ -247,20 +249,19 @@
                       <option>Eliminación</option>
                       <option>Extracción</option>
                     </select>
-                    <br>
+                    
                 </div>
 
                 <div class="campo">
                     <label for="mensaje">Mensaje Adicional:</label>
                     <br>
                     <textarea id="mensaje" name="mensaje"></textarea>
-                    <br>
+                    
                 </div>
       
                 <div class="campo">
                     <input type="checkbox" id="aceptar" name="aceptar" required>
                     <label for="aceptar">Acepto las condiciones del tratamiento de datos</label>
-                    <br>
                 </div>
 
                 <div class="campo">
@@ -270,15 +271,16 @@
             </form>
           </section>
 
-        <br>
-
     </main>
 
     <footer>
         <p>Diego Lizana Ciudad - Tel: +34 666669950 - Correo Electrónico: dev@gmail.com</p>
-        <a href="https://github.com" rel="noopener noreferrer"><img src="/imagenes/logo-github.png" alt="Logo Github"></a>
-        <a href="https://www.linkedin.com/" rel="noopener noreferrer"><img src="/imagenes/logo-linkdegin.png" alt="Logo LinkedIn"></a>
-        <a href="https://www.infojobs.net" rel="noopener noreferrer"><img src="/imagenes/logo-infojobs.png" alt="Logo InfoJobs"></a>
+        <div class="links_footer">
+            <a href="https://github.com" rel="noopener noreferrer"><img src="/imagenes/logo-github.png" alt="Logo Github"></a>
+            <a href="https://www.linkedin.com/" rel="noopener noreferrer"><img src="/imagenes/logo-linkdegin.png" alt="Logo LinkedIn"></a>
+            <a href="https://www.infojobs.net" rel="noopener noreferrer"><img src="/imagenes/logo-infojobs.png" alt="Logo InfoJobs"></a>
+        </div>
+        
     </footer>
 
 </body>
