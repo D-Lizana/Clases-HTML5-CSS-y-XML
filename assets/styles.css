@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(16, 86, 111);
     font-family: 'fontSalamanca';
 }
 
@@ -40,7 +40,7 @@ h1 {
 
 .nav-button:hover {
     color: azure;
-    background-color: black;
+    background-color: teal;
     transform: scale(1.05);
 }
 
@@ -112,6 +112,8 @@ h3 {
 
 form {
     text-align: center;
+    border-style: dashed;
+    border-color: teal;
 }
 
 
