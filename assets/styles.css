@@ -14,28 +14,50 @@ h1 {
     font-family: 'fontSalamanca';
 }
 
-#navegacion {
+.nav-button {
     background-color: ghostwhite;
     color: black;
-    text-decoration: none;
     border-color: black;
     border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: azure;
+    background-color: black;
+    transform: scale(1.05);
+}
+
+a {
+    color: rgb(32, 107, 120);
 }
 
 
 .datos_principales {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#gagarin {
+    width: 250px;
 }
 
 
 h2 {
     color: cornflowerblue;
+    
 }
 
 
 body {
-    background-color: azure;
+    background-color: rgb(235, 250, 250);
 }
 
 
@@ -46,6 +68,7 @@ section {
 
 .habilidades {
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -57,7 +80,8 @@ section {
 article {
     margin: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 
@@ -78,5 +102,6 @@ form {
 
 footer {
     text-align: center;
+    font-size: 0.8rem;
 }
 
