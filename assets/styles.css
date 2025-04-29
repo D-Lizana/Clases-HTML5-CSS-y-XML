@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    /*background-color: rgb(235, 250, 250)*/
+    background-color: rgb(235, 250, 250);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     margin: 5%;
