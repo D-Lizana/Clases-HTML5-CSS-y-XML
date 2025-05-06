@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<clientes>
-    <cliente id="1">
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <cliente>
         <nombre>Denis</nombre>
-        <correo>Denis@uax.es</correo>
+        <correo>denis@uax.es</correo>
         <telefono>666666666</telefono>
         <web>www.denis.com</web>
     </cliente>
-
-    <cliente id="2">
+    <cliente>
         <nombre>Ivan</nombre>
         <correo>ivan@uax.es</correo>
         <telefono>666999666</telefono>
         <web>www.ivan.com</web>
     </cliente>
-
-    <cliente id="3">
+    <cliente>
         <nombre>Efrén</nombre>
         <correo>efren@uax.es</correo>
         <telefono>699666666</telefono>
