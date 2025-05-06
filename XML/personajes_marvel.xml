@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Primero abrimos la etiqueta superheroes que va a ser la etiqueta raiz-->
 <superheroes>
+    <!-- Dentro introducimos la etiqueta hija superheroe a la que le asignamos un id y el estado del superheroe en cuestion-->
     <superheroe id="1" estado="Activo">
+        <!-- Añadimos las etiquetas con las caracteristicas respetando las normas del ejercicio-->
         <nombre_real>Thor, Dios del Trueno</nombre_real>
         <nombre_clave>Thor, Dios del Trueno</nombre_clave>
         <grupo>Los Vengadores</grupo>
         <poder_principal>Mjölnir</poder_principal>
         <nivel_poder escala="1-10">10</nivel_poder>
         <habilidades>
+            <!-- Al igual que con superheroes, creamos una etiqueta para habilidades e incluimos dentro cada habilidad.
+            No sé si es necesario incluir un id o atributo similar en cada habilidad asi que no lo he hecho-->
             <habilidad>Control de relámpagos</habilidad>
             <habilidad>Fuerza Sobrenatural</habilidad>
             <habilidad>Vuelo</habilidad>
         </habilidades>
     </superheroe>
 
+    <!-- Replicamos los otros superheroes usando exactamente el mismo patron-->
     <superheroe id="2" estado="Retirado">
         <nombre_real>Tony Stark</nombre_real>
         <nombre_clave>Iron-Man</nombre_clave>
