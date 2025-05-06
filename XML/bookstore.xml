@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+
+    <libro>
+
+        <titulo>Cien años de soledad</titulo>
+
+        <autor>Gabriel García Márquez</autor>
+
+        <editorial>Editorial Sudamericana</editorial>
+
+        <anno_Publicacion>1967</anno_Publicacion>
+
+        <precio moneda="USD">20.00</precio>
+
+    </libro>
+
+    <libro>
+
+        <titulo>Don quijote de la Mancha</titulo>
+
+        <autor>Miguel de Cervantes</autor>
+
+        <editorial>Francisco de Robles</editorial>
+
+        <anno_Publicacion>1605</anno_Publicacion>
+
+        <precio moneda="EUR">15.50</precio>
+
+    </libro>
+
+    <libro>
+
+        <titulo>La sombra del viento</titulo>
+
+        <autor>Carlos Ruiz Zafón</autor>
+
+        <editorial>Planeta</editorial>
+
+        <anno_Publicacion>2001</anno_Publicacion>
+
+        <precio moneda="EUR">18.75</precio>
+
+    </libro>
+
+</catalogo>
