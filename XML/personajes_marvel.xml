@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <superheroes>
-    <superheroe estado="Activo">
+    <superheroe id="1" estado="Activo">
         <nombre_real>Thor, Dios del Trueno</nombre_real>
         <nombre_clave>Thor, Dios del Trueno</nombre_clave>
         <grupo>Los Vengadores</grupo>
@@ -13,7 +13,7 @@
         </habilidades>
     </superheroe>
 
-    <superheroe estado="Retirado">
+    <superheroe id="2" estado="Retirado">
         <nombre_real>Tony Stark</nombre_real>
         <nombre_clave>Iron-Man</nombre_clave>
         <grupo>Los Vengadores</grupo>
@@ -27,7 +27,7 @@
         </habilidades>
     </superheroe>
 
-    <superheroe estado="Activo">
+    <superheroe id="3" estado="Activo">
         <nombre_real>Peter Parker</nombre_real>
         <nombre_clave>Spider-Man</nombre_clave>
         <grupo>Los Vengadores</grupo>

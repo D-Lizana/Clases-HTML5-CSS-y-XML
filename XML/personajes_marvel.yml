@@ -1,0 +1,45 @@
+superheroes:
+  superheroe:
+    - id: 1
+      estado: Activo
+      nombre_real: "Thor, Dios del Trueno"
+      nombre_clave: "Thor, Dios del Trueno"
+      grupo: "Los Vengadores"
+      poder_principal: "Mjölnir"
+      nivel_poder:
+        escala: "1-10"
+        valor: 10
+      habilidades:
+        "1": "Control de relámpagos"
+        "2": "Fuerza Sobrenatural"
+        "3": "Vuelo"
+
+    - id: 2
+      estado: Retirado
+      nombre_real: "Tony Stark"
+      nombre_clave: "Iron-Man"
+      grupo: "Los Vengadores"
+      poder_principal: "Armadura de alta tecnología"
+      nivel_poder:
+        escala: "1-10"
+        valor: 9
+      habilidades:
+        1: "Ingeniería avanzada"
+        2: "Inteligencia excepcional"
+        3: "Vuelo"
+        4: "Armamento de alta precisión"
+
+    - id: 3
+      estado: Activo
+      nombre_real: "Peter Parker"
+      nombre_clave: "Spider-Man"
+      grupo: "Los Vengadores"
+      poder_principal: "Sentido arácnido y agilidad sobrehumana"
+      nivel_poder:
+        escala: "1-10"
+        valor: 9
+      habilidades:
+        1: "Trepar muros"
+        2: "Reflejos mejorados"
+        3: "Lanzamiento de telarañas"
+        4: "Fuerza Sobrehumana"

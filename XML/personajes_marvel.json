@@ -1,7 +1,8 @@
 {
     "superheroes": {
         "superheroe": [
-            {
+            {   
+                "id" : 1,
                 "estado": "Activo",
                 "nombre_real": "Thor, Dios del Trueno",
                 "nombre_clave": "Thor, Dios del Trueno",
@@ -17,7 +18,9 @@
                     "3": "Vuelo"
                 }
             },
+
             {
+                "id" : 2,
                 "estado": "Retirado",
                 "nombre_real": "Tony Stark",
                 "nombre_clave": "Iron-Man",
@@ -34,7 +37,9 @@
                     "4": "Armamento de alta precisión"
                 }
             },
+
             {
+                "id" : 3,
                 "estado": "Activo",
                 "nombre_real": "Peter Parker",
                 "nombre_clave": "Spider-Man",
