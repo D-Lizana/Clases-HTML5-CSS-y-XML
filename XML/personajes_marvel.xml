@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<superheroes>
+    <superheroe estado="Activo">
+        <nombre_real>Thor, Dios del Trueno</nombre_real>
+        <nombre_clave>Thor, Dios del Trueno</nombre_clave>
+        <grupo>Los Vengadores</grupo>
+        <poder_principal>Mjölnir</poder_principal>
+        <nivel_poder escala="1-10">10</nivel_poder>
+        <habilidades>
+            <habilidad>Control de relámpagos</habilidad>
+            <habilidad>Fuerza Sobrenatural</habilidad>
+            <habilidad>Vuelo</habilidad>
+        </habilidades>
+    </superheroe>
+
+    <superheroe estado="Retirado">
+        <nombre_real>Tony Stark</nombre_real>
+        <nombre_clave>Iron-Man</nombre_clave>
+        <grupo>Los Vengadores</grupo>
+        <poder_principal>Armadura de alta tecnología</poder_principal>
+        <nivel_poder escala="1-10">9</nivel_poder>
+        <habilidades>
+            <habilidad>Ingeniería avanzada</habilidad>
+            <habilidad>Inteligencia excepcional</habilidad>
+            <habilidad>Vuelo</habilidad>
+            <habilidad>Armamento de alta precisión</habilidad>
+        </habilidades>
+    </superheroe>
+
+    <superheroe estado="Activo">
+        <nombre_real>Peter Parker</nombre_real>
+        <nombre_clave>Spider-Man</nombre_clave>
+        <grupo>Los Vengadores</grupo>
+        <poder_principal>Sentido arácnido y agilidad sobrehumana</poder_principal>
+        <nivel_poder escala="1-10">9</nivel_poder>
+        <habilidades>
+            <habilidad>Trepar muros</habilidad>
+            <habilidad>Reflejos mejorados</habilidad>
+            <habilidad>Lanzamiento de telarañas</habilidad>
+            <habilidad>Fuerza Sobrehumana</habilidad>
+        </habilidades>
+    </superheroe>
+</superheroes>
