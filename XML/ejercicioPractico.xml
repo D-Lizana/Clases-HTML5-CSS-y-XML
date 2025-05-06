@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente id="1">
+        <nombre>Denis</nombre>
+        <correo>Denis@uax.es</correo>
+        <telefono>666666666</telefono>
+        <web>www.denis.com</web>
+    </cliente>
+
+    <cliente id="2">
+        <nombre>Ivan</nombre>
+        <correo>ivan@uax.es</correo>
+        <telefono>666999666</telefono>
+        <web>www.ivan.com</web>
+    </cliente>
+
+    <cliente id="3">
+        <nombre>Efrén</nombre>
+        <correo>efren@uax.es</correo>
+        <telefono>699666666</telefono>
+        <web>www.efren.com</web>
+    </cliente>
+
+</clientes>
