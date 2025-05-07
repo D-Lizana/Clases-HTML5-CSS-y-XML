@@ -3,19 +3,19 @@
     <cliente>
         <nombre>Denis</nombre>
         <correo>denis@uax.es</correo>
-        <telefono>666666666</telefono>
+        <telefono>6666666660</telefono>
         <web>www.denis.com</web>
     </cliente>
     <cliente>
         <nombre>Ivan</nombre>
         <correo>ivan@uax.es</correo>
-        <telefono>666999666</telefono>
+        <telefono>6669996660</telefono>
         <web>www.ivan.com</web>
     </cliente>
     <cliente>
         <nombre>Efrén</nombre>
         <correo>efren@uax.es</correo>
-        <telefono>699666666</telefono>
+        <telefono>6996666660</telefono>
         <web>www.efren.com</web>
     </cliente>
 
