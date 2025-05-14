@@ -1,0 +1,7 @@
+
+    <pedido estado="enviado">
+        <cliente>Ender</cliente>
+        <producto>Lo que sea</producto>
+        <cantidad>1986</cantidad>
+        <precio>10.55</precio> 
+    </pedido>
